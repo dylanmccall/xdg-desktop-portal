@@ -28,6 +28,7 @@ PORTAL_IFACE_FILES =\
 	data/org.freedesktop.portal.ProxyResolver.xml \
 	data/org.freedesktop.portal.Screenshot.xml \
 	data/org.freedesktop.portal.Notification.xml \
+	data/org.freedesktop.portal.IdleMonitor.xml \
 	data/org.freedesktop.portal.Inhibit.xml \
 	data/org.freedesktop.portal.Device.xml \
 	data/org.freedesktop.portal.Account.xml \
@@ -52,6 +53,7 @@ PORTAL_IMPL_IFACE_FILES =\
 	data/org.freedesktop.impl.portal.Print.xml \
 	data/org.freedesktop.impl.portal.Screenshot.xml \
 	data/org.freedesktop.impl.portal.Notification.xml \
+	data/org.freedesktop.impl.portal.IdleMonitor.xml \
 	data/org.freedesktop.impl.portal.Inhibit.xml \
 	data/org.freedesktop.impl.portal.Access.xml \
 	data/org.freedesktop.impl.portal.Account.xml \
@@ -132,6 +134,8 @@ xdg_desktop_portal_SOURCES = \
 	src/screenshot.h		\
         src/notification.c              \
         src/notification.h              \
+        src/idle-monitor.c              \
+        src/idle-monitor.h              \
         src/inhibit.c                   \
         src/inhibit.h                   \
         src/device.c                    \
